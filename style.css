@@ -1,0 +1,51 @@
+#instagram-new{
+  position: relative;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  margin-top: 150px;
+  border-radius: 60px;
+  background: -webkit-linear-gradient(-262.8749836510982deg, rgba(255,255,255,0) 0, rgba(244,48,109,0) 34%, #F4306D 44%, #D53592 63%, #4258F5 100%), -webkit-radial-gradient(28% 142%, circle farthest-corner, rgba(255,104,177,0.1) 0, #FFFFFF 9%, #FBE18A 32%, #FBBB45 37%, #F88330 43%, #F86737 52%, #F8443E 57%, #F4306D 70%, #D53592 85%, #4258F5 100%), -webkit-linear-gradient(-18.43494882292201deg, rgba(255,255,255,0.49) 0, rgba(255,255,255,0.49) 57%, #F4306D 82%, #D53592 100%), -webkit-linear-gradient(-228deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 1%, #903ACD 49%, #903ACD 77%, rgba(144,58,205,0) 100%);
+  background: -moz-linear-gradient(352.8749836510982deg, rgba(255,255,255,0) 0, rgba(244,48,109,0) 34%, #F4306D 44%, #D53592 63%, #4258F5 100%), -moz-radial-gradient(28% 142%, circle farthest-corner, rgba(255,104,177,0.1) 0, #FFFFFF 9%, #FBE18A 32%, #FBBB45 37%, #F88330 43%, #F86737 52%, #F8443E 57%, #F4306D 70%, #D53592 85%, #4258F5 100%), -moz-linear-gradient(108.43494882292201deg, rgba(255,255,255,0.49) 0, rgba(255,255,255,0.49) 57%, #F4306D 82%, #D53592 100%), -moz-linear-gradient(318deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 1%, #903ACD 49%, #903ACD 77%, rgba(144,58,205,0) 100%);
+  background: linear-gradient(352.8749836510982deg, rgba(255,255,255,0) 0, rgba(244,48,109,0) 34%, #F4306D 44%, #D53592 63%, #4258F5 100%), radial-gradient(circle farthest-corner at 28% 142%, rgba(255,104,177,0.1) 0, #FFFFFF 9%, #FBE18A 32%, #FBBB45 37%, #F88330 43%, #F86737 52%, #F8443E 57%, #F4306D 70%, #D53592 85%, #4258F5 100%), linear-gradient(108.43494882292201deg, rgba(255,255,255,0.49) 0, rgba(255,255,255,0.49) 57%, #F4306D 82%, #D53592 100%), linear-gradient(318deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 1%, #903ACD 49%, #903ACD 77%, rgba(144,58,205,0) 100%);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  box-shadow: 0px 10px 30px #e5e5e5;
+  transition: 0.5s;
+}
+
+#instagram-new:before{
+  content: '\25CF \00a0';
+  font-size: 60px;
+  color: #FFF;
+  text-align: right;
+  line-height: 50px;
+  top: 44px;
+  left: 44px;
+  position: absolute;
+  width: 175px;
+  height: 175px;
+  border: 20px solid #FFF;
+  border-radius: 60px;
+}
+
+#instagram-new:after{
+  content: '';
+  top: 98px;
+  left: 98px;
+  position: absolute;
+  margin: 0 auto;
+  width: 65px;
+  height: 65px;
+  border: 20px solid #FFF;
+  border-radius: 50%;
+}
+
+#instagram-new:hover{
+  transform: scale(1.3);
+}
